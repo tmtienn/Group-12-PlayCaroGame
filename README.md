@@ -3,6 +3,7 @@
 Một trò chơi Caro (Gomoku) được phát triển bằng Python với kiến trúc client-server, hỗ trợ chơi với người chơi khác, AI, và các tính năng mạng xã hội.
 
 ## 📋 Mục lục
+
 - [Tính năng](#tính-năng)
 - [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
 - [Cài đặt](#cài-đặt)
@@ -15,17 +16,20 @@ Một trò chơi Caro (Gomoku) được phát triển bằng Python với kiến
 ## ✨ Tính năng
 
 ### 🎯 Chơi game
+
 - **Chơi với người**: Tìm phòng nhanh, tạo phòng riêng tư
 - **Chơi với AI**: Máy tính với các mức độ khó khác nhau
 - **Chế độ xem**: Xem các trận đấu đang diễn ra
 
 ### 👥 Mạng xã hội
+
 - **Đăng ký/Đăng nhập**: Hệ thống tài khoản người dùng
 - **Danh sách bạn bè**: Thêm/Kết bạn
 - **Bảng xếp hạng**: Xếp hạng người chơi theo điểm số
 - **Chat server**: Trò chuyện với người chơi khác
 
 ### 🎨 Giao diện
+
 - **GUI hiện đại**: Sử dụng Tkinter với thiết kế đẹp mắt
 - **Responsive**: Tự động điều chỉnh kích thước cửa sổ
 - **Icons & Emojis**: Giao diện trực quan với biểu tượng
@@ -40,12 +44,14 @@ Một trò chơi Caro (Gomoku) được phát triển bằng Python với kiến
 ## 🚀 Cài đặt
 
 ### 1. Clone repository
+
 ```bash
-git clone https://github.com/your-username/caro-game-python.git
+git clone https://github.com/tmtienn/Group-12-PlayCaroGame.git
 cd caro-game-python
 ```
 
 ### 2. Tạo virtual environment (khuyến nghị)
+
 ```bash
 python -m venv venv
 # Windows
@@ -55,29 +61,37 @@ source venv/bin/activate
 ```
 
 ### 3. Cài đặt dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Khởi tạo database
+
 Database SQLite sẽ được tự động tạo khi chạy server lần đầu.
 
 ## 🎮 Chạy chương trình
 
 ### Chạy Server
+
 ```bash
 python run_server.py
 ```
+
 Server sẽ khởi động trên port 7777 với giao diện admin.
 
 ### Chạy Client
+
 ```bash
 python run_client.py
 ```
+
 Mở giao diện đăng nhập. Tài khoản mặc định: `admin/admin123`
 
 ### Chạy cả hai cùng lúc
+
 Mở 2 terminal riêng biệt:
+
 - Terminal 1: `python run_server.py`
 - Terminal 2: `python run_client.py`
 
@@ -132,17 +146,20 @@ PlayCaroGame_Python/
 ## 🛠 Công nghệ sử dụng
 
 ### Backend
+
 - **Python 3.13**: Ngôn ngữ chính
 - **SQLite**: Cơ sở dữ liệu
 - **Socket Programming**: Mạng client-server
 - **Threading**: Xử lý đa luồng
 
 ### Frontend
+
 - **Tkinter**: GUI framework
 - **Pillow**: Xử lý hình ảnh
 - **Pygame**: Âm thanh và multimedia
 
 ### Libraries
+
 - **python-dateutil**: Xử lý ngày tháng
 - **sqlite3**: Database operations (built-in)
 
@@ -177,6 +194,7 @@ python test_game_context.py
 ## 🐛 Báo lỗi
 
 Nếu bạn tìm thấy lỗi, vui lòng tạo issue trên GitHub với:
+
 - Mô tả lỗi chi tiết
 - Steps to reproduce
 - Expected behavior
