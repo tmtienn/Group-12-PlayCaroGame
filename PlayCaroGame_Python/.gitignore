@@ -1,15 +1,59 @@
-# Python
-.venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Database
-*.sqlite3
+# C extensions
+*.so
 
-# IDE
-.vscode/
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Translations
+*.mo
+
+# Logs
+*.log
+
+# Local DB
+database/caro_game.db
+
+# Environment variables
+.env
+.env.*
+
+# IDEs and editors
 .idea/
+.vscode/
+*.iml
 
-# OS
-Thumbs.db
+# OS files
 .DS_Store
+Thumbs.db
+
+# Others
+*.bak
+*.swp
+*~
